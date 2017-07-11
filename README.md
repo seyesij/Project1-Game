@@ -1,19 +1,23 @@
 # [Name of Game]
 
-# [screenshot]
+[screenshot]
 
-# What is [name of game]?
+## What is [name of game]?
 
-# Brief discussion of what the game is and why you chose to make it
-Technical Discussion
+> Brief discussion of what the game is and why you chose to make it
 
-#List of the technologies you're using (HTML, CSS, JavaScript)
-Notes on Game Structure
+## Technical Discussion
 
-#Code samples, description of challenges you overcame, etc.
-The Making of [Your Game]
+> List of the technologies you're using (HTML, CSS, JavaScript)
 
-#Any credits or notes you feel you should add
-Opportunities for Future Growth
+### Notes on Game Structure
 
-#If you had more time to work on your game, what would you do?
+> Code samples, description of challenges you overcame, etc.
+
+## The Making of [Your Game]
+
+> Any credits or notes you feel you should add
+
+## Opportunities for Future Growth
+
+> If you had more time to work on your game, what would you do?
