@@ -1,4 +1,4 @@
-*** Name / Date ***
+*** Seye Sijuwade / 07/11/16 ***
 
 # Guess-the-Song Game Proposal
 
