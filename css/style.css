@@ -1,0 +1,104 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  background: url("../images/background.jpg");
+}
+
+header {
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  color: purple;
+  letter-spacing: 1px;
+  font-size: 45px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: purple;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-family: "Droid Serif", serif;
+  line-height: 26px;
+  font-size: 18px;
+  padding: 10px 0;
+  color: white;
+}
+
+main {
+   max-width: 850px;
+   margin: 0 auto;
+}
+
+.top {
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px 70px 30px 70px;
+  display: inline-block;
+  color: white;
+}
+
+.answers {
+    border: 2px solid #a1a1a1;
+    width: 100px;
+    height: 20px;
+    margin: 30px 4px 0 4px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#play {
+  cursor: pointer;
+  border: 2px solid #a1a1a1;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #999;
+}
+
+#play:hover{
+  background-position:100px;
+}
+
+#play:active {
+  box-shadow: 2px 2px 2px #777;
+  border-bottom:1px solid #999;
+  transform: translateY(3px);
+}
+
+img {
+  border: 3px dotted purple;
+}
+
+#points, #score {
+  border: 3px dotted purple;
+}
+
+
+#timer {
+  font-size: 30px;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  margin: auto;
+  color: white;
+}
+
+
+
+
+
+
