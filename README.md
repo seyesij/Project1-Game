@@ -1,8 +1,8 @@
-# Match-the-Song
+# Guess-the-Song
 
 [screenshot]
 
-## What is Match-the-Song?
+## What is Guess-the-Song?
 
 > This is a fun trivia game in which you have to match the name of the song snippets you hear correctly with the options given before time runs out.
 
@@ -14,7 +14,7 @@
 
 > Code samples, description of challenges you overcame, etc.
 
-## The Making of Match-the-Song
+## The Making of Guess-the-Song
 
 > Any credits or notes you feel you should add
 
