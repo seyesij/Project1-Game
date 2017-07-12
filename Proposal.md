@@ -1,6 +1,6 @@
 *** Name / Date ***
 
-# Project1 Game Proposal
+# Guess-the-Song Game Proposal
 
 ## What is Guess-the-Song?
 
@@ -12,13 +12,32 @@ This is a music trivia game. There will be a number of songs to listen to and al
 
 ## Initial thoughts on game structure
 
-*I have lots ideas in mind that I would like the game to have for example adding levels, having a variety of song selections to pick from etc. I will start of with a simple game structure with one level but hoepfully build on that as time passes and I learn more!
-*I expect to encounter challenges with javascript in order to make my game function as I want it to. 
-*I'm not the best designer so styling the website as nice as I want it to look might also be tough.
+- I think the way I will build this game is pretty straight forward, I have a structure in mind that includes having an audio file that will play snippets of each song (probably about 10 songs). There will be a couple of options to choose from below, I will put this boxes in different divs. The logic of the game is basically matching the song with the correct title. I also have to figure out a way to add a timer that shows how long a player has left to guess each song before it moves on to the next.
+- I have lots of ideas in mind that I would like the game to have for example adding levels, having a variety of song selections to pick from to play etc. I will start of with a simple game structure with one level but hoepfully build on that as time passes. I want to eventually have a range of songs to pick from.
+- I expect to encounter challenges with javascript in order to make my game function just as I want it to.
+- Styling the page is another thing that might be challenging, although it's a simple sturcture I want the page to look really nice.
 
 ## Phases of Completion
+#### Phase 1 
+- Instructions
+- Audio file 
+- Answer boxes
 
-(The steps or phases you expect to go through, and the tasks that you'll need to accomplish to reach each step. These should resemble the acceptance criteria we were working through earlier.)
+#### Phase 2
+- Timer (countddown)
+- ***Win scenario***
+- ***Loss scenario***
+
+#### Phase 3
+- Scoring system (points tracker)
+ 
+#### Phase 4
+- Expand game by adding levels
+- Add new songs
+- Add memory (highscore)
+
 
 ## Links and Resources
 *https://www.movavi.com/support/how-to/how-to-join-music.html
+
+
