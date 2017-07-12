@@ -39,6 +39,7 @@ This is a music trivia game. There will be a number of songs to listen to and al
 
 
 ## Links and Resources
-*https://www.movavi.com/support/how-to/how-to-join-music.html
+- https://www.movavi.com/support/how-to/how-to-join-music.html
+- https://images.google.com/
 
 
