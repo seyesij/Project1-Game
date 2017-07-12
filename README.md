@@ -1,20 +1,20 @@
-# [Name of Game]
+# Match-the-Song
 
 [screenshot]
 
-## What is [name of game]?
+## What is Match-the-Song?
 
-> Brief discussion of what the game is and why you chose to make it
+> This is a fun trivia game in which you have to match the name of the song snippets you hear correctly with the options given before time runs out.
 
 ## Technical Discussion
 
-> List of the technologies you're using (HTML, CSS, JavaScript)
+> This game will be built with HTML, CSS and JavaScript.
 
 ### Notes on Game Structure
 
 > Code samples, description of challenges you overcame, etc.
 
-## The Making of [Your Game]
+## The Making of Match-the-Song
 
 > Any credits or notes you feel you should add
 
