@@ -8,7 +8,7 @@ This is a music trivia game. There will be a number of songs to listen to and al
 
 ## Wireframe
 
-(Your wireframes go here. Preferably two or more)
+![Image of Screenshot](https://github.com/seyesij/Project1-Game/blob/master/wireframe.jpg)
 
 ## Initial thoughts on game structure
 
