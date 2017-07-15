@@ -18,19 +18,20 @@ This is a music trivia game. There will be a number of songs to listen to and al
 - I expect to encounter challenges with javascript in order to make my game function just as I want it to.
 - Styling the page is another thing that might be challenging, although it's a simple sturcture I want the page to look really nice.
 
-## Phases of Completion
-#### Phase 1 
-- Instructions
+## Phases of Completion 
+#### Phase 1 *Achieved 07/12*
+- ~~Instructions~
 - Audio file 
 - Answer boxes
 
-#### Phase 2
-- Timer (countddown)
+#### Phase 2 
+- *Achieved 07/14*  ~~Timer (countdown)
+
 - ***Win scenario***
 - ***Loss scenario***
 
-#### Phase 3
-- Scoring system (points tracker)
+#### Phase 3 *Achieved 07/14*
+- ~~Scoring system (points tracker)
  
 #### Phase 4
 - Expand game by adding levels
