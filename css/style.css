@@ -18,20 +18,20 @@ h1 {
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family:'Goudy Bookletter 1911', serif;
   color: purple;
-  letter-spacing: 2px;
-  font-weight: 600;
-  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 1500;
+  font-size: 23px;
   padding-top: 20px;
 }
 
 p {
-  font-family: "Droid Serif", serif;
+  font-family: 'Goudy Bookletter 1911', serif;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 0;
-  color: white;
+  color: #D3D3D3;
 }
 
 main {
@@ -40,10 +40,10 @@ main {
 }
 
 .top {
-  width: 100px;
-  height: 20px;
+  width: 80px;
+  height: 15px;
   padding: 10px;
-  margin: 10px 70px 30px 70px;
+  margin: 10px 70px 25px 70px;
   display: inline-block;
   color: white;
 }
@@ -51,7 +51,7 @@ main {
 .answers {
     border: 2px solid #a1a1a1;
     width: 100px;
-    height: 20px;
+    height: 18px;
     margin: 30px 4px 0 4px;
     padding: 10px;
     border-radius: 10px;
@@ -83,21 +83,44 @@ img {
   border: 3px dotted purple;
 }
 
-#points, #score {
-  border: 3px dotted purple;
+#points {
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+  border: 3px dotted #808080;
+  font-size: 19.9px;
+  color: gold;
 }
 
+#level {
+  font-family: 'Sigmar One', cursive;
+  border: 3px dotted #808080;
+  font-size: 19.9px;
+  color: gold;
 
 #timer {
-  font-size: 30px;
+  font-size: 26px;
   width: 100px;
   height: 20px;
-  padding: 10px;
+  padding: 5px;
   margin: auto;
   color: white;
 }
 
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
 
+#message {
+  font-size: 18px;
+  text-align: center;
+  padding: auto;
+  margin: 10px 0 0 0;
+  font-weight: 600;
+  color: white;
+}
 
 
 
