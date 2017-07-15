@@ -20,18 +20,17 @@ This is a music trivia game. There will be a number of songs to listen to and al
 
 ## Phases of Completion 
 #### Phase 1 *Achieved 07/12*
-- ~~Instructions~
-- Audio file 
-- Answer boxes
+- ~~Instructions~~
+- ~~Audio Files~~
+- ~~Answer boxes~~
 
 #### Phase 2 
-- *Achieved 07/14*  ~~Timer (countdown)
-
+- *Achieved 07/14*  ~~Timer (countdown)~~
 - ***Win scenario***
 - ***Loss scenario***
 
 #### Phase 3 *Achieved 07/14*
-- ~~Scoring system (points tracker)
+- ~~Scoring system (points tracker)~~
  
 #### Phase 4
 - Expand game by adding levels
