@@ -21,6 +21,10 @@ function countdown() {
    //end timer after 81 seconds
    setTimeout(function(countdown){
    clearInterval(time);
+   checkWin();
+   document.getElementById('playagain').style.display = "block";
+   document.getElementById('sec3').style.display = "none";
+   document.getElementById('timer').style.display = "none";
  }, 81000);
 }
 
@@ -93,6 +97,7 @@ $('#ans10').on('click', function(){
  answerChoice = $(this).text();
 });
 
+
 //check a answer and add/subtract points to game when answer is correct/incorrect
 var points = 0;
 
@@ -110,6 +115,25 @@ function checkIfRight(){
   points -= 50;
   $('#points').text(points);
   }
+}
+
+function checkWin() {
+  let totalpoints = $('#points').text();
+  if (totalpoints >= 700) {
+    setMessage('Awesome, you passed this level!!!!!')
+    $('#message').css('display', 'block');
+    $('#message').css('font-size', '25px');
+    $('#message').css('color', 'green');
+  } else {
+    setMessage('Sorry, you lost. Try again?');
+    $('#message').css('display', 'block');
+    $('#message').css('font-size', '25px');
+    $('#message').css('color', 'red');
+  }
+}
+
+function playAgain() {
+    document.location.href = "";
 }
 
 
