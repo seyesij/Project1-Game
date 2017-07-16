@@ -96,6 +96,7 @@ img {
   border: 3px dotted #808080;
   font-size: 19.9px;
   color: gold;
+}
 
 #timer {
   font-size: 26px;
@@ -103,7 +104,7 @@ img {
   height: 20px;
   padding: 5px;
   margin: auto;
-  color: white;
+  color: gold;
 }
 
 .green{
@@ -111,6 +112,16 @@ img {
 }
 .red{
   background-color: red;
+}
+
+button {
+  margin: auto;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  border: 2px solid #a1a1a1;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #999;
 }
 
 #message {
