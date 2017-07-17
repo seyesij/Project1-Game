@@ -4,7 +4,7 @@
 
 ## What is Guess-the-Song?
 
-> This is a fun trivia game in which you have to match the name of the song snippets you hear correctly with the options given before time runs out.
+> This is a fun guessing game in which you have to match the name of the song snippets you hear correctly with the options given before time runs out.
 
 ## Technical Discussion
 
@@ -36,11 +36,18 @@
 }
 
 > Description of challenges you overcame, etc.
+Some functions were quite difficult to figure out for example, getting the game to play the next song after one had ended was quite challenging. When I used a loop it kept on playing all songs at the same time.  
 
 ## The Making of Guess-the-Song
 
 > Any credits or notes you feel you should add
+- https://www.sitepoint.com/jquery-settimeout-function-examples/
+- Help with next song function from Liam Schauerman (https://stackoverflow.com/a/27995683)
 
 ## Opportunities for Future Growth
 
 > If you had more time to work on your game, what would you do?
+-	Add levels; right now it just has 1 level. 
+-	Add a local storage for high scores
+- Add some animation styling
+
