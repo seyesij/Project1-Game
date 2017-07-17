@@ -1,6 +1,6 @@
 # Guess-the-Song
 
-[screenshot]
+![Image of Screenshot](https://github.com/seyesij/Project1-Game/blob/master/gamescreenshot.png)
 
 ## What is Guess-the-Song?
 
@@ -12,7 +12,30 @@
 
 ### Notes on Game Structure
 
-> Code samples, description of challenges you overcame, etc.
+> Code samples
+- function checkWin() {
+  let totalpoints = $('#points').text();
+  if (totalpoints >= 700) {
+    setMessage('Awesome, you passed this level!!!!!')
+    $('#message').css('display', 'block');
+    $('#message').css('font-size', '25px');
+    $('#message').css('color', 'green');
+  } else {
+    setMessage('Sorry, you lost. Try again?');
+    $('#message').css('display', 'block');
+    $('#message').css('font-size', '25px');
+    $('#message').css('color', 'red');
+  }
+}
+
+- .answers:hover {
+  background: white;
+  color: black;
+  font-weight: 599;
+  box-shadow: 0 8px 16px rgba(199,21,133,0.4);
+}
+
+> Description of challenges you overcame, etc.
 
 ## The Making of Guess-the-Song
 
