@@ -18,13 +18,13 @@ function countdown() {
   }
   document.getElementById("timer").innerHTML = timer;
   }, 900);
-   //end timer after 81 seconds
+   //end timer and run other functions after 81 seconds
    setTimeout(function(countdown){
    clearInterval(time);
    checkWin();
-   document.getElementById('playagain').style.display = "block";
    document.getElementById('sec3').style.display = "none";
    document.getElementById('timer').style.display = "none";
+   document.getElementById('playagain').style.display = "block";
  }, 81000);
 }
 
@@ -43,7 +43,7 @@ let song10 = document.getElementById("song10");
 let songOrder = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10];
 
 //function taken from Liam Schauerman (https://stackoverflow.com/a/27995683)
-var currentSong=0;
+let currentSong=0;
 function playMusic(){
   songOrder[currentSong].play();
   songOrder[currentSong].addEventListener('ended', function(){
@@ -54,8 +54,8 @@ function playMusic(){
   });
 }
 
-//assigning answer to button
-var answerChoice;
+//assigning answers to answerChoice
+let answerChoice;
 
 $('#ans1').on('click', function(){
  answerChoice = $(this).text();
@@ -98,8 +98,8 @@ $('#ans10').on('click', function(){
 });
 
 
-//check a answer and add/subtract points to game when answer is correct/incorrect
-var points = 0;
+//check an answer and add/subtract points to game when answer is correct/incorrect
+let points = 0;
 
 function checkIfRight(){
   if (answerChoice == $(`#song${currentSong+1}`).text()) {
