@@ -16,7 +16,7 @@
 
   <main>
     <h2>INSTRUCTIONS</h2>
-    <p>All you have to do is to guess the song that is playing. A fixed number of songs will run and for each one correctly guessed you will earn an amount of points. The winning amount depends on the number of songs matched correctly in the given amount of time. Enjoy!</p>
+    <p>All you have to do is guess the song that is playing in the given amount of time. A number of songs will play and for each song title correctly guessed you will earn 100 points, however for each wrong guess you lose 50 points. To win you need to get at least 700 points. Enjoy!</p>
 
     <section id="sec1">
       <div id="points" class="top">Points</div>
@@ -27,7 +27,7 @@
 
     <section id="sec2">
       <div id="aud"><img src="images/speaker.jpg"></div>
-      <button id=playagain" onclick="playAgain();" style="display:none;">Play Again</button>
+      <button id="playagain" onclick="playAgain();" style="display:none;">Play Again</button>
     <!--<button id="nextlevel" onclick="levelTwo();" style="display:none;">Next Level</button> -->
         <audio src="milkshake.mp3" id="song1" class="audiofiles">Milkshake</audio>
         <audio src="maskoff.mp3" id="song2" class="audiofiles">Mask Off</audio>
@@ -39,7 +39,6 @@
         <audio src="despacito.mp3" id="song8" class="audiofiles">Despacito</audio>
         <audio src="imtheone.mp3" id="song9" class="audiofiles">I'm The One</audio>
         <audio src="partymonster.mp3" id="song10" class="audiofiles">Party Monster</audio>
-
       <div id="timer">0:00</div>
       <div id="message"</div>
     </section>
