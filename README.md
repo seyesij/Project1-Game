@@ -36,11 +36,11 @@
 }
 
 > Description of challenges you overcame, etc.
-Some functions were quite difficult to figure out for example, getting the game to play the next song after one had ended was quite challenging. When I used a loop it kept on playing all songs at the same time.  
+- Some functions were quite difficult to figure out for example, getting the game to play the next song after one had ended was quite challenging. When I used a loop it kept on playing all songs at the same time.  
 
 ## The Making of Guess-the-Song
 
-> Any credits or notes you feel you should add
+> Any credits or notes you feel you should add?
 - https://www.sitepoint.com/jquery-settimeout-function-examples/
 - Help with next song function from Liam Schauerman (https://stackoverflow.com/a/27995683)
 
@@ -49,5 +49,5 @@ Some functions were quite difficult to figure out for example, getting the game 
 > If you had more time to work on your game, what would you do?
 -	Add levels; right now it just has 1 level. 
 -	Add a local storage for high scores
-- Add some animation styling
+- Add some animation
 
