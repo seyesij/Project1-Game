@@ -5,12 +5,9 @@ body {
   background: url("../images/background.jpg");
 }
 
-header {
-}
-
 h1 {
   font-family: 'Monoton', cursive;
-  color: purple;
+  color: #DA70D6;
   letter-spacing: 1px;
   font-size: 45px;
   margin: 0;
@@ -19,7 +16,7 @@ h1 {
 
 h2 {
   font-family:'Goudy Bookletter 1911', serif;
-  color: purple;
+  color: #DA70D6;
   letter-spacing: 3px;
   font-weight: 1500;
   font-size: 23px;
@@ -62,15 +59,18 @@ main {
     font-size: 17px;
 }
 
+.answers:hover {
+  background: white;
+  color: black;
+  font-weight: 599;
+  box-shadow: 0 8px 16px rgba(199,21,133,0.4);
+}
+
 #play {
   cursor: pointer;
   border: 2px solid #a1a1a1;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #999;
-}
-
-#play:hover{
-  background-position:100px;
 }
 
 #play:active {
@@ -80,7 +80,7 @@ main {
 }
 
 img {
-  border: 3px dotted purple;
+  border: 3px dotted #DA70D6;
 }
 
 #points {
