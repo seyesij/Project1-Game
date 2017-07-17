@@ -50,4 +50,5 @@
 -	Add levels; right now it just has 1 level. 
 -	Add a local storage for high scores
 - Add some animation
+- Add a way to move to the next song once the player gets the right answer
 
