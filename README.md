@@ -4,7 +4,7 @@
 
 ## What is Guess-the-Song?
 
-> This is a fun guessing game in which you have to match the name of the song snippets you hear correctly with the options given before time runs out.
+> All you have to do is guess the song that is playing in the given amount of time. A number of songs will play and for each song title correctly guessed you will earn 100 points, however for each wrong guess you lose 50 points. To win you need to get at least 700 points. 
 
 ## Technical Discussion
 
