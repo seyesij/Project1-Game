@@ -8,7 +8,7 @@
 
 ## Technical Discussion
 
-> This game will be built with HTML, CSS and JavaScript.
+> This game will be built with HTML, CSS, JavaScript and JQuery.
 
 ### Notes on Game Structure
 
