@@ -18,7 +18,7 @@ function countdown() {
     timer --;
   }
   document.getElementById("timer").innerHTML = timer;
-  }, 900);
+  }, 914);
    //end timer and run other functions after 81 seconds
    setTimeout(function(countdown){
    clearInterval(time);
