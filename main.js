@@ -7,12 +7,13 @@ function setMessage(msg) {
   document.getElementById("message").innerText = msg;
  }
 
+//set timer for game
 let timer = 8;
 function countdown() {
    document.getElementById("timer").innerHTML = timer;
    let time = setInterval(function() {
     if (timer === 0) {
-      timer = 8;
+      timer = 8; //restarts timer
     } else {
     timer --;
   }
@@ -28,7 +29,7 @@ function countdown() {
  }, 81000);
 }
 
-
+//put songs in order of how they should play
 let song1 = document.getElementById("song1");
 let song2 = document.getElementById("song2");
 let song3 = document.getElementById("song3");
@@ -54,7 +55,7 @@ function playMusic(){
   });
 }
 
-//assigning answers to answerChoice
+//assigning answers to answerChoice variable
 let answerChoice;
 
 $('#ans1').on('click', function(){
@@ -117,6 +118,7 @@ function checkIfRight(){
   }
 }
 
+//check if player won
 function checkWin() {
   let totalpoints = $('#points').text();
   if (totalpoints >= 700) {
@@ -132,6 +134,7 @@ function checkWin() {
   }
 }
 
+//refresh page
 function playAgain() {
     document.location.href = "";
 }
