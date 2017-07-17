@@ -8,7 +8,7 @@ function setMessage(msg) {
  }
 
 //set timer for game
-let timer = 8;
+var timer = 8;
 function countdown() {
    document.getElementById("timer").innerHTML = timer;
    let time = setInterval(function() {
@@ -30,18 +30,18 @@ function countdown() {
 }
 
 //put songs in order of how they should play
-let song1 = document.getElementById("song1");
-let song2 = document.getElementById("song2");
-let song3 = document.getElementById("song3");
-let song4 = document.getElementById("song4");
-let song5 = document.getElementById("song5");
-let song6 = document.getElementById("song6");
-let song7 = document.getElementById("song7");
-let song8 = document.getElementById("song8");
-let song9 = document.getElementById("song9");
-let song10 = document.getElementById("song10");
+var song1 = document.getElementById("song1");
+var song2 = document.getElementById("song2");
+var song3 = document.getElementById("song3");
+var song4 = document.getElementById("song4");
+var song5 = document.getElementById("song5");
+var song6 = document.getElementById("song6");
+var song7 = document.getElementById("song7");
+var song8 = document.getElementById("song8");
+var song9 = document.getElementById("song9");
+var song10 = document.getElementById("song10");
 
-let songOrder = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10];
+var songOrder = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10];
 
 //function taken from Liam Schauerman (https://stackoverflow.com/a/27995683)
 let currentSong=0;
@@ -56,7 +56,7 @@ function playMusic(){
 }
 
 //assigning answers to answerChoice variable
-let answerChoice;
+var answerChoice;
 
 $('#ans1').on('click', function(){
  answerChoice = $(this).text();
@@ -100,7 +100,7 @@ $('#ans10').on('click', function(){
 
 
 //check an answer and add/subtract points to game when answer is correct/incorrect
-let points = 0;
+var points = 0;
 
 function checkIfRight(){
   if (answerChoice == $(`#song${currentSong+1}`).text()) {
