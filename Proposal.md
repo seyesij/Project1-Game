@@ -26,8 +26,8 @@ This is a music trivia game. There will be a number of songs to listen to and al
 
 #### Phase 2 
 - ~~Timer (countdown)~~ *Achieved 07/14*
-- ***Win scenario***
-- ***Loss scenario***
+- ~~***Win scenario***~~ *Achieved 07/15*
+- ~~***Loss scenario***~~ *Achieved 07/15*
 
 #### Phase 3 *Achieved 07/14*
 - ~~Scoring system (points tracker)~~
